@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+    Home
+@endsection
 @section('css')
     
 @endsection

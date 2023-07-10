@@ -1,4 +1,7 @@
 @extends('layouts.frontend')
+@section('title')
+   User
+@endsection
 @section('css')  
 @endsection
 
