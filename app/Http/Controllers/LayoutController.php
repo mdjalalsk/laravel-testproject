@@ -18,7 +18,13 @@ class LayoutController extends Controller
         $users=User::paginate(3);
         return view('frontend.user',['users'=>$users]);
     }
-    public function service(){
-        return view('frontend.service');
+    public function service($id){
+        return view('frontend.service',compact('id'));
+    }
+    public function test(){
+        return view('frontend.test');
+    }
+    public function showblog(){
+        return view('frontend.blog');
     }
 }

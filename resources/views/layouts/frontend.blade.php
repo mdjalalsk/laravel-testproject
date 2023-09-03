@@ -27,7 +27,9 @@
     @show
     
     <script src="{{ asset("build/assets/js/bootstrap.bundle.min.js") }}"></script>
-    @yield("scripts")
+    {{-- @yield("scripts") --}}
+    {{--  it is another ways to add script in our side service pase theke @push metho a  script sent kora hoice ai stack a --}}
+    @stack('js')
 </div>
 </body>
 </html>

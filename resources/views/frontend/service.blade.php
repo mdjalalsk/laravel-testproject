@@ -6,7 +6,8 @@
     
 @endsection
 @section('content')
-<h1> this is service</h1>
+<h1> this is service {{$id}}</h1>
+<a href="{{route('blog')}}">Blog</a>
 @php
     $fruits = ["apple", "banana", "orange", ];
 @endphp
@@ -14,6 +15,11 @@
 <button class="btn btn-primary">test css</button>
     
 @endsection
-@section('scripts')
+{{-- @section('scripts')
     
-@endsection
+@endsection --}}
+@push('js')
+   <script>
+     alert(" js working");
+   </script>
+@endpush

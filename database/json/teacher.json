@@ -1,0 +1,22 @@
+[
+    {
+        "name" :"kobir",
+        "email" : "kobir@gmail.com",
+        "address" : "mirpur"
+    },
+    {
+        "name" :"kajol",
+        "email" : "kajol@gmail.com",
+        "address" : "Faridpur"
+    },
+    {
+        "name" :"robi",
+        "email" : "robi@gmail.com",
+        "address" : "mirpur"
+    },
+    {
+        "name" :"rony",
+        "email" : "rony@gmail.com",
+        "address" : "mirpur"
+    }
+]
