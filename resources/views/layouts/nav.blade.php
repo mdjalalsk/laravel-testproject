@@ -20,6 +20,9 @@
             <a class="nav-link" href="{{url("about")}}">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="{{route("showallcustomers")}}">Customer</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{{route('teacher')}}">Teacher</a>
           </li>
           <li class="nav-item dropdown">

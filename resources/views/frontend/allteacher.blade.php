@@ -23,11 +23,15 @@
     <td>{{$tc->name}} </td> 
     <td>{{$tc->email}} </td>
     <td>{{$tc->address}}</td>
-    <td><a href="{{route('delete',$tc->id)}}" class="btn btn-danger">Delete</a></td>
+
+    <td><a href="{{route('editTeacherview',$tc->id)}}" class="btn btn-warning">Edit</a>|<a href="{{route('delete',$tc->id)}}" class="btn btn-danger">Delete</a></td>
 </tr>
-@endforeach
+@endforeach 
 
 </table>
+<div class="mt-5">
+   {{$teacher->links()}}
+</div>
 @endsection
 @section('scripts')
     
